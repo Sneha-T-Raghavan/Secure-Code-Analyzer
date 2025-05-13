@@ -1,8 +1,7 @@
 # test_vulnerable.py - File with intentional security vulnerabilities
 
-DATABASE_PASSWORD = "super_secret_password123"
-API_KEY = "ak_live_12345abcdefg"
-
+PASSWORD = "supersecretpassword123"
+API_KEY = "1a2b3c4d5e6f7g8h9i0j"
 import base64
 
 def weak_encrypt(text):
@@ -22,7 +21,7 @@ import os
 
 def run_command(user_input):
     os.system(f"echo {user_input}") 
-n
+
 import pickle
 
 def load_object(serialized_data):
