@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+}
+
+.vulnerability-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vulnerability-card .card-header {
+    font-weight: bold;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px 4px 0 0;
+    margin: -16px -16px 16px -16px; /* Negative margins to stretch to card edges */
+    background-color: rgba(0, 0, 0, 0.2); /* Slightly darker shade of the card background */
+}
+
+textarea.form-control {
+    font-family: 'Courier New', monospace;
+}
+
+pre {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important; /* High risk: Red */
+    color: rgb(0, 0, 0);
+}
+
+.bg-warning {
+    background-color: #ffc107 !important; /* Medium risk: Yellow */
+    color: black;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important; /* Low risk: Cyan */
+    color: white;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important; /* Fallback: Gray */
+    color: white;
+}
